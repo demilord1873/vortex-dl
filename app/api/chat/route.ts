@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
         "X-Title": "Vortex AI",
       },
       body: JSON.stringify({
-        model: "deepseek/deepseek-chat",
+        model: "arcee-ai/trinity-mini",
         stream: true,
         messages,
       }),
